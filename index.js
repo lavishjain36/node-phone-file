@@ -1,3 +1,5 @@
 const result=require('./data/phoneno');
 
-setInterval(result.phoneno,1000);
+setTimeout(()=>{
+    console.log(result.data);
+},2000);
